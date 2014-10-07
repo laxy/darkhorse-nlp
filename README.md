@@ -10,7 +10,7 @@ Currently, darkhorse-nlp provides two main support features:
 
 ###Applications, Tools and Libraries
 
--	######Python Libraries
+- ######Python Libraries
       * [Django](https://www.djangoproject.com/)
       * [Pymongo](http://api.mongodb.org/python/current/)
             
