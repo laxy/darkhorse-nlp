@@ -1,0 +1,23 @@
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+}
+
+div.main {
+    margin: 5% 5%;
+    padding: 1% 5%;
+}
+
+div.case_summary {
+    padding: 10px;
+    background: lightgray;
+}
+
+div.case_summary:hover {
+    background: #87CEEB
+}

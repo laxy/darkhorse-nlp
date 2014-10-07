@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<div class="main">
+
+    <div> Case <b>{{ case.case_id }}</b> has been submitted successfully. </div>
+    
+    <div class="summary">
+    <h3> Case Summary: </h3>
+        <b>Case:</b> {{ case.case_id }} <br>
+        <b>Category:</b> {{ case.category }} <br>
+        <b>Priority:</b> {{ case.priority }} <br>
+        <b>Synopsis:</b> {{ case.synopsis }} <br>
+        <b>User:</b> {{ case.user }} <br>
+        <b>Date:</b> {{ case.datetime }} <br>
+    <br>
+    <b>Description:</b><br> {{ case.case_data }} <br>
+    </div>
+</div>
+
+{% endblock %}

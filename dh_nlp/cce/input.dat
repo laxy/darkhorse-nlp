@@ -1,0 +1,27 @@
+####    Example dataset for dh_nlp
+####    Format: case_id | section | date+time | case_synopsis | case_query | priority \n
+####    Delimiter: |
+
+####    Human Resources
+####    Testbed and Lab Support
+####    Workplace Resources
+####    Safety and Security
+####    Technical Support
+####    Travel and Transportation
+
+
+##### Human Resources
+H1452990 | Human Resources | Sep 17 2014 15:16:40 PDT | My Employment ID is XXXXX. I would like to request a copy of my employee verification letter with the following details: yearly salary, ssn, start date. I would like to get it with wet signature. It would be great if this can be sent to my home address by the next business day as this is urgently required for home loan approval. | High
+H1224323 | Human Resources | Sep 10 2014 12:30:30 PDT | I am a new hire. I am unable to access the payroll web portal, I have provided my ssn to HR last week. I keep getting a single-sign on error all the time. Please let me know if you need any other information from my end. | Medium
+H1049981 | Human Resources | Sep 9 2014 14:20:23 PDT | I had recently changed my address on the company website to reflect my new address. I requested a employment verfication letter on Sept 6 2014. But, it turns out that the letter was sent to my old address instead of the new address. It would be great if you could update my address on file and sent it to the new address. Address: 45315, Clearview Lane, Fremont CA 94140. | Medium
+
+
+##### Testbed and Lab Support 
+T2131134 | Testbed and Lab Support | Sep 17 2014 12:16:40 PDT | Testbed Name:red1-ng-2123, Console IP: 123.45.243.13 Some of the VMs are not accessible in this testbed. I think this may be because the license has expired. Since the license for red1-ng-2123 has expired, It would be great if you could renew this license. The access details are ssh root@red1-ng-2123, Username: root, password: 12345. Please let me know if you need any other information from my end. It would be great if this issue is resolved ASAP, as many people are affected by this issue. | High
+T2014329 | Testbed and Lab Support | Sep 16 2014 12:16:40 PDT | I would like to have the following items picked up: Listing of equipment to be picked up: 12 monitors in good conditions, 10 line cards, 12 cpu boards. From: Blg 8, Ist floor. Will require at least 3 employees and please bring carts to carry the equipment. | Minor
+T2014201 | Testbed and Lab Support | Sep 16 2014 9:30:21 PDT | Need access to lab at building 8, first floor. I have completed all the lab training requirements successfully. | Medium
+T2001926 | Testbed and Lab Support | Sep 15 2014 17:33:32 PDT | Sup1 Linecard is not working. Part Number: 945324532, Serial Number: FNE13433899. Location: Row D, Lab1, Building 9. It is pulled out a little for identification. | Medium
+T2000123 | Testbed and Lab Support | Sep 15 2014 15:51:31 PDT | Not able to access 123.234.23.34 from devices through interfaces which have 10.1.1. This case is high priority. | High
+T1990234 | Testbed and Lab Support | Sep 15 2014 12:10:10 PDT | Need lab access to lab2 in building 9 to setup testbed. The requestor has completed the lab training requirements. Employee number: 431112343 | Medium
+
+

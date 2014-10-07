@@ -1,0 +1,26 @@
+{
+    "file": "input.dat",
+    "status": 0,
+    "delimiter": ["|"],
+    "comment_line": ["####", "#####"],
+    "section": {    
+                    "Human Resources": 0,  
+                    "Testbed and Lab Support": 0, 
+                    "Workplace Resources": 0, 
+                    "Safety and Security": 0, 
+                    "Technical Support": 0, 
+                    "Travel and Transportation": 0
+    },
+    "priority": {
+                    "High": 0,
+                    "Medium": 0,
+                    "Minor": 0,
+                    "Low": 0
+    },      
+    "parse_line": [ "case_id", 
+                    "section", 
+                    "datetime", 
+                    "case_query", 
+                    "priority"
+    ]
+}

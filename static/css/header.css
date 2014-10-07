@@ -1,0 +1,81 @@
+.header {
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: url(../img/sprite.png) repeat-x;
+    font-family: 'Palatino Linotype','Book Antiqua',Palatino,serif!important;
+    font-weight:200;
+    font-style:normal;
+    z-index: 10000;
+}
+
+.header ul {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    left: 35%
+}
+
+.header ul li {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: auto;
+    padding: 0 1.5em;
+    float: left;
+    text-align: center;
+    color: white;
+    z-index: 100;
+    #line-height: 45px;
+    font-size: 12px;
+}
+
+.header-start {
+    cursor: pointer;
+    position: absolute;
+    line-height: 45px;
+    left: 5%;
+    font-size: 18px;
+    color: white;
+    height: 100%;
+    width: auto;
+    z-index: 200;
+    #font-family: 'Palatino Linotype','Book Antiqua',Palatino,serif;;
+    #font-size: 35px;
+}
+
+.header-end {
+    cursor: pointer;
+    position: absolute;
+    line-height: 45px;
+    right: 0%;
+    top: 0%;
+    font-size: 16px;
+    color: white;
+    height: 100%;
+    width: 300px;
+    z-index: 200;
+}
+
+.header-end div {
+    position: relative;
+    float: left;
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 5px 10px;
+}
+
+.header-end div img {
+    #height: 100%;
+    #width: 100%;
+}
+
+
+.header ul li:hover, .header-start:hover, .header-end:hover {
+    color: #ccc;
+}
