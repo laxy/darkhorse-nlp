@@ -6,7 +6,7 @@
 <div class="main">
 
     {% for case in cases %}
-        <div class="case_summary">
+        <div id="{{ case.case_id }}" class="case_summary">
             <b>Case:</b> {{ case.case_id }} <br>
             <b>Category:</b> {{ case.section }} <br>
             <b>Priority:</b> {{ case.priority }} <br>
@@ -14,5 +14,5 @@
             <b>Description:</b>{{ case.case_query }}
         </div>
     {% endfor %}
-
+</div>
 {% endblock %}

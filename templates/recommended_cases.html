@@ -1,0 +1,10 @@
+
+    {% for case in cases %}
+    <div id="rci_{{ case.case_id }}" class="recommended_case_summary">
+        <b>Case:</b> {{ case.case_id }} <br>
+        <b>Category:</b> {{ case.section }} <br>
+        <b>Priority:</b> {{ case.priority }} <br>
+        <b>Date:</b> {{ case.datetime }} <br>
+        <b>Description:</b>{{ case.case_query }}
+    </div>
+    {% endfor %}

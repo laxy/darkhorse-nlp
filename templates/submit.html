@@ -1,33 +1,17 @@
 {% extends "base.html" %}
 
-
 {% block content %}
 <div class="main">    
     
-    <form method="post" enctype='multipart/form-data' action='http://127.0.0.1:8000/post_case_data' class="formoid-solid-blue" style="background-color:#FFFFFF;font-size:14px;font-family:'Palatino Linotype','Book Antiqua',Palatino,serif;color:#34495E;max-width:480px;min-width:150px">{% csrf_token %}
+    <form method="post" enctype='multipart/form-data' action='/post_case_data' class="formoid-solid-blue" style="background-color:#FFFFFF;font-size:14px;color:#34495E;max-width:480px;min-width:150px">
+        {% csrf_token %}
         <div class="title"><h2>Submit a case</h2></div>
         <div class="element-input"><label class="title"><span class="required">*</span></label><div class="item-cont"><input class="large" type="text" name="synopsis" required="required" placeholder="Synopsis"/></span></div></div>
-        <div class="element-textarea"><label class="title"><span class="required">*</span></label><div class="item-cont"><textarea name="case_data" class="large" name="textarea" cols="20" rows="5" required="required" placeholder="Case description"></textarea></div></div>
+        <div class="element-textarea"><label class="title"><span class="required">*</span></label><div class="item-cont"><textarea name="case_data" class="large" name="textarea" cols="25" rows="3" required="required" placeholder="Case description"></textarea></div></div>
         <div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="username" placeholder="User Name"/></div></div>
-    
         <div class="submit"><input type="submit" value="Submit"/></div>
     </form>
 <br><br>
-
-<form class="formoid-solid-blue" style="background-color:#FFFFFF;font-size:14px;font-family:'Palatino Linotype','Book Antiqua',Palatino,serif;color:#34495E;max-width:480px;min-width:150px" method="post"><div class="title"></div>
-<div class="element-select"><label class="title"></label><div class="item-cont"><div class="large"><span><select name="select" >
-
-    <option value="option 1">option 1</option>
-    <option value="option 2">option 2</option>
-    <option value="option 3">option 3</option></select><i></i></span></div></div></div>
-<div class="element-select"><label class="title"></label><div class="item-cont"><div class="large"><span><select name="select1" >
-
-    <option value="option 1">option 1</option>
-    <option value="option 2">option 2</option>
-    <option value="option 3">option 3</option></select><i></i></span></div></div></div>
-<div class="submit"><input type="submit" value="Submit"/></div>
-</form>
-
 
 </div>
 

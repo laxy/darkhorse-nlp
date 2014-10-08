@@ -21,8 +21,7 @@ def create_case(request):
     c = {}
     c.update(csrf(request))
     return render_to_response('submit.html', c)
-    
-    
+ 
 def post_case_data(request):
     case = {}
     c = {}
@@ -53,3 +52,15 @@ def pending_cases(request):
     for case in case_db.find():
         cases.append(case)
     return render_to_response('pending_cases.html', {'cases':cases}, context_instance=RequestContext(request))
+
+def recommend_cases(request):
+    c = {}
+    c.update(csrf(request))
+    case = case_db.find_one({'case_id': request.POST.get('case_id')})
+    cases = dh_recommendation_results(case['case_query'], case['section'], mc.get('recommendation.engine'))  
+    cases, similarity = zip(*cases)
+    cases = list(cases[:4])
+    cases[:] = [d for d in cases if d.get('case_id') != request.POST.get('case_id')]
+    return render_to_response('recommended_cases.html', {'cases':cases}, context_instance=RequestContext(request))
+    
+    

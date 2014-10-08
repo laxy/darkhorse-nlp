@@ -10,4 +10,5 @@ urlpatterns = patterns('',
     url(r'^submit$','dh_nlp.views.create_case'),
     url(r'^post_case_data$','dh_nlp.views.post_case_data'),
     url(r'^unresolved$','dh_nlp.views.pending_cases'),
+    url(r'^rengine$','dh_nlp.views.recommend_cases'),
 )
