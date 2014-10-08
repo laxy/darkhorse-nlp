@@ -32,7 +32,3 @@ The following applications and libraries are required for darkhorse-nlp to run.
 
 
 
-
-
-
-
