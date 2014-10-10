@@ -10,11 +10,9 @@ jQuery( document ).ready(function( $ ) {
     $( ".case_summary" ).click(function() {
         
         if($(this).find('.rc-engine').length) {
-            console.log("here")
             $(this).find('.rc-engine').delay(200).fadeToggle();
             
         } else {
-        console.log($(this).attr('id'));
         case_id = $(this).attr('id');
         
         $.ajaxSetup({
@@ -32,11 +30,9 @@ jQuery( document ).ready(function( $ ) {
             data: {"case_id":case_id},
             success:function (data) {
                 //var data = JSON.parse(data);
-                //console.log(data);
                 $( "#"+case_id ).append( "<div id=r_"+case_id+" class='rc-engine'>"+data+"</div>" );
             },
             error:function(xhr, status, error) {
-                console.log("Error");
             console.log(error.Message);
             }   
         });   

@@ -30,5 +30,4 @@ The following applications and libraries are required for darkhorse-nlp to run.
 *   [Natural Language Tool Kit](http://www.nltk.org/install.html)
 *   [Gensim](http://radimrehurek.com/gensim/install.html)
 
-
-
+Install the above libraries and software. Run launch.sh!
