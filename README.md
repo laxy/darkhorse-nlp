@@ -10,15 +10,16 @@ Currently, darkhorse-nlp provides two main support features:
 
 ### Applications, Tools and Libraries
 
-- ###### Python Libraries
-      * [Django](https://www.djangoproject.com/)
-      * [Pymongo](http://api.mongodb.org/python/current/)
+###### Python Libraries
+* [Django](https://www.djangoproject.com/)
+* [Pymongo](http://api.mongodb.org/python/current/)
             
-- ###### NLP Python Libraries
-  	*   [Natural Language ToolKit (NLTK)](http://www.nltk.org/)
-    *	[Gensim](http://radimrehurek.com/gensim/)
-- [Memcached](http://memcached.org/)
-- [Mongodb](http://www.mongodb.org/)
+###### NLP Python Libraries
+* [Natural Language ToolKit (NLTK)](http://www.nltk.org/)
+* [Gensim](http://radimrehurek.com/gensim/)
+
+* [Memcached](http://memcached.org/)
+* [Mongodb](http://www.mongodb.org/)
     
         
 ### Installation
