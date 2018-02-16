@@ -8,13 +8,13 @@ Currently, darkhorse-nlp provides two main support features:
 * Auto-categorization for support cases
 * Recommendation Engine to filter similar cases
 
-###Applications, Tools and Libraries
+### Applications, Tools and Libraries
 
-- ######Python Libraries
+- ###### Python Libraries
       * [Django](https://www.djangoproject.com/)
       * [Pymongo](http://api.mongodb.org/python/current/)
             
-- ######NLP Python Libraries
+- ###### NLP Python Libraries
   	*   [Natural Language ToolKit (NLTK)](http://www.nltk.org/)
     *	[Gensim](http://radimrehurek.com/gensim/)
 - [Memcached](http://memcached.org/)
